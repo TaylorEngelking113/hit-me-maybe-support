@@ -24,6 +24,6 @@ Since all data is stored locally on your device, you can delete it at any time b
 
 If you have questions about this privacy policy, contact:
 
-**[taylorengelking113@gmail.com](mailto:taylorengelking113@gmail.com)**
+**[hitmemaybeapp@gmail.com](mailto:hitmemaybeapp@gmail.com)**
 
 _Last updated: June 2026_

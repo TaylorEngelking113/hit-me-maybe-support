@@ -5,7 +5,7 @@ title: Support
 
 Thanks for using **Hit Me Maybe: Blackjack Trainer**! If you need help, have feedback, or found a bug, reach out here:
 
-- **Email:** [taylorengelking113@gmail.com](mailto:taylorengelking113@gmail.com)
+- **Email:** [hitmemaybeapp@gmail.com](mailto:hitmemaybeapp@gmail.com)
 
 ---
 
