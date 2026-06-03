@@ -1,8 +1,9 @@
 title: "Hit Me Maybe — Support"
 theme: minima
-# Project Pages served from /docs on this repo. baseurl MUST match the repo
-# name so theme assets + links resolve (repo → https://<user>.github.io/<baseurl>/).
-baseurl: "/HitMeMaybe"
-# Internal design notes — kept in the repo but NOT published to the site.
-exclude:
-  - icon-direction.md
+# This docs/ folder is the canonical source for the support+privacy site.
+# It is published to the PUBLIC repo TaylorEngelking113/hit-me-maybe-support
+# (GitHub Pages can't serve from this private repo on the free plan) via:
+#     git subtree push --prefix docs site main
+# baseurl matches that public repo's name so theme assets + links resolve:
+#     https://taylorengelking113.github.io/hit-me-maybe-support/
+baseurl: "/hit-me-maybe-support"
