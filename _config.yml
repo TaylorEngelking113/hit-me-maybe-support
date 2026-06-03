@@ -1,0 +1,8 @@
+title: "Hit Me Maybe — Support"
+theme: minima
+# Project Pages served from /docs on this repo. baseurl MUST match the repo
+# name so theme assets + links resolve (repo → https://<user>.github.io/<baseurl>/).
+baseurl: "/HitMeMaybe"
+# Internal design notes — kept in the repo but NOT published to the site.
+exclude:
+  - icon-direction.md
