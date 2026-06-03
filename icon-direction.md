@@ -1,4 +1,4 @@
-# HitMeHuman App Icon — Design Direction Brief
+# HitMeMaybe App Icon — Design Direction Brief
 
 ## Why we're revisiting
 
