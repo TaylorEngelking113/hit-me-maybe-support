@@ -28,9 +28,9 @@ The router lives in `HitMeMaybe/HitMeMaybeApp.swift` (`UITestScreen`). It skips 
 | Argument | Effect | Example |
 |---|---|---|
 | `--seed-shoe=<n>` | The Practice shoe is a deterministic 6-deck shuffle seeded with `n` (UInt64). It replaces any saved shoe. Seed `5` deals player 4+10 (hard 14) against a dealer 6, with no naturals; the Practice UI tests use it (#45). | `--seed-shoe=5` |
-| `--seed-energy=<n>` | Sets today's remaining free energy to `n` (clamped to 0…50). Needs `--force-free-tier`. | `--force-free-tier --seed-energy=0` (first Deal shows the out-of-energy sheet) |
+| `--seed-energy=<n>` | Sets today's remaining free energy to `n` (clamped to 0…50). Needs `--force-free-tier`. The value is saved and **persists until midnight ET** on that simulator; relaunch with `--force-free-tier --seed-energy=50` to refill. | `--force-free-tier --seed-energy=0` (first Deal shows the out-of-energy sheet) |
 | `--countdown-mode=<mode>` | The rung that `UI_TEST_SCREEN=countdown` opens: `tagWarmup`, `halfDeck`, `fullDeck` or `timed`. | `--countdown-mode=halfDeck` |
-| `--countdown-at-entry` | An entry-mode Deck Countdown (any rung except `tagWarmup`) skips the card reveal and opens on the count-entry keypad. A full deck always counts to **0**. | `UI_TEST_SCREEN=countdown --countdown-at-entry` |
+| `--countdown-at-entry` | An entry-mode Deck Countdown (any rung except `tagWarmup`) skips the card reveal and opens on the count-entry keypad. It applies to every Deck Countdown screen in that launch, including ones opened from the Card Counting hub. A jumped run awards no XP or daily-goal credit. A full deck always counts to **0**. | `UI_TEST_SCREEN=countdown --countdown-at-entry` |
 | `--force-split` | Practice's opening hand is a pair, and the dealer's hole card is a 6. | |
 | `--force-free-tier` | Turns off the DEBUG Pro unlock (free tier: energy, ads, paywall). | |
 | `--show-paywall` | Home opens the paywall on its first appearance. | |
