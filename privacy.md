@@ -21,7 +21,7 @@ If you are signed in to Game Center on your device, the app submits your scores 
 
 ## Advertising (free version only)
 
-The free version shows ads from **Google AdMob**, including an optional rewarded ad you can choose to watch to refill your daily energy. **Strategy Pro subscribers see no ads and no ad-related prompts.**
+The free version shows ads from **Google AdMob**, including an optional rewarded ad you can choose to watch to refill your daily energy. **Hit Me Maybe Pro subscribers see no ads and no ad-related prompts.**
 
 To serve ads, Google's Mobile Ads SDK may collect:
 
@@ -36,14 +36,14 @@ Google may also use this data for ad measurement and its own analytics. How Goog
 
 ## In-App Purchases
 
-Hit Me Maybe offers an optional premium upgrade ("Strategy Pro"), an auto-renewable subscription (monthly or yearly) processed entirely by Apple through the App Store. **Hit Me Maybe never receives, processes, or stores your payment information.** All purchase transactions are handled by Apple. Please refer to [Apple's Privacy Policy](https://www.apple.com/privacy/) for details on how Apple handles purchase data.
+Hit Me Maybe offers an optional premium upgrade ("Hit Me Maybe Pro"), an auto-renewable subscription (monthly or yearly) processed entirely by Apple through the App Store. **Hit Me Maybe never receives, processes, or stores your payment information.** All purchase transactions are handled by Apple. Please refer to [Apple's Privacy Policy](https://www.apple.com/privacy/) for details on how Apple handles purchase data.
 
 ## Your choices
 
 - **Tracking:** iOS Settings → Privacy & Security → Tracking, or decline the prompt when it appears.
 - **Ad consent:** in the app, Settings → Legal → Ad privacy choices.
 - **Game Center:** sign out in iOS Settings → Game Center.
-- **Ads altogether:** subscribe to Strategy Pro.
+- **Ads altogether:** subscribe to Hit Me Maybe Pro.
 
 ## Data deletion
 

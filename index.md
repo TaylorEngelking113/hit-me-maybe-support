@@ -18,10 +18,10 @@ Hit Me Maybe teaches basic blackjack strategy in three steps:
 3. **Practice Mode** — Play real hands and get instant coaching on every decision
 
 **What's included for free?**
-The free version includes the full 27-card flash card deck in Study mode, a sample of Quiz mode (hard totals), limited Practice mode hands, and your overall accuracy stat.
+Every mode. Practice, Quiz, Drills and The Strip career share 50 hands of energy a day; Study flash cards and the card counting drills are always free. When your energy runs out, you can watch an optional short ad to refill it (up to twice a day), or come back tomorrow.
 
-**What does Premium unlock?**
-The **Strategy Pro** upgrade — an auto-renewable subscription (monthly or yearly, with a free trial on the yearly plan) — unlocks full Quiz mode across all categories, unlimited Practice mode, the complete Stats dashboard with per-category accuracy and streaks, strategy drills, Career mode, and the monthly competition.
+**What does Hit Me Maybe Pro unlock?**
+The **Hit Me Maybe Pro** upgrade — an auto-renewable subscription (monthly or yearly, with a free trial on the yearly plan) — removes the daily energy limit and the optional ads, adds a live running and true card count while you practice, and unlocks The Strip's later chapters.
 
 **How do I manage or cancel my subscription?**
 Subscriptions are managed through your Apple ID: open **Settings → [your name] → Subscriptions** on your device. You can also restore an active subscription in the app via **Settings → Restore Purchases** on any device signed in with the same Apple ID.
