@@ -21,7 +21,7 @@ If you are signed in to Game Center on your device, the app submits your scores 
 
 ## Advertising (free version only)
 
-The free version shows ads from **Google AdMob**, including an optional rewarded ad you can choose to watch to refill your daily energy. **Hit Me Maybe Pro subscribers see no ads and no ad-related prompts.**
+The free version shows ads from **Google AdMob**, including an optional rewarded ad you can choose to watch for more hands of daily energy. **Hit Me Maybe Pro subscribers see no ads and no ad-related prompts.**
 
 To serve ads, Google's Mobile Ads SDK may collect:
 
