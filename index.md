@@ -26,6 +26,9 @@ The **Hit Me Maybe Pro** upgrade — an auto-renewable subscription (monthly or 
 **How do I manage or cancel my subscription?**
 Subscriptions are managed through your Apple ID: open **Settings → [your name] → Subscriptions** on your device. You can also restore an active subscription in the app via **Settings → Restore Purchases** on any device signed in with the same Apple ID.
 
+**Which blackjack rules does the strategy assume?**
+Strategy assumes 4–8 decks, dealer hits soft 17, double after split, late surrender.
+
 **How does practice mode work?**
 Practice mode deals real blackjack hands from a simulated 6-deck shoe. After every decision (hit, stand, double, or split), the app evaluates your play against basic strategy. A green banner means you played optimally — a warning means there was a better move, and it tells you what it was.
 
