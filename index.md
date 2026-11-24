@@ -6,6 +6,7 @@ title: Support
 Thanks for using **Hit Me Maybe: Blackjack Trainer**! If you need help, have feedback, or found a bug, reach out here:
 
 - **Email:** [hitmemaybeapp@gmail.com](mailto:hitmemaybeapp@gmail.com)
+- **Free strategy chart:** [Blackjack basic strategy chart]({{ '/blackjack-basic-strategy-chart/' | relative_url }}), the same plays the app teaches
 
 ---
 
@@ -27,7 +28,7 @@ The **Hit Me Maybe Pro** upgrade — an auto-renewable subscription (monthly or 
 Subscriptions are managed through your Apple ID: open **Settings → [your name] → Subscriptions** on your device. You can also restore an active subscription in the app via **Settings → Restore Purchases** on any device signed in with the same Apple ID.
 
 **Which blackjack rules does the strategy assume?**
-Strategy assumes 4–8 decks, dealer hits soft 17, double after split, late surrender.
+Strategy assumes 4–8 decks, dealer hits soft 17, double after split, late surrender. The full chart is on the [strategy chart page]({{ '/blackjack-basic-strategy-chart/' | relative_url }}).
 
 **How does practice mode work?**
 Practice mode deals real blackjack hands from a simulated 6-deck shoe. After every decision (hit, stand, double, or split), the app evaluates your play against basic strategy. A green banner means you played optimally — a warning means there was a better move, and it tells you what it was.

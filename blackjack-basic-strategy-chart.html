@@ -1,0 +1,154 @@
+---
+layout: default
+title: Blackjack Basic Strategy Chart
+description: "Free printable blackjack basic strategy chart for 4 to 8 decks, dealer hits soft 17, double after split and late surrender. Hard totals, soft totals and pairs."
+permalink: /blackjack-basic-strategy-chart/
+app_banner: true
+---
+<style>
+  .bj-page .lede { font-size: 1.1em; }
+  .bj-page .rules { color: #555; }
+  .bj-legend { list-style: none; margin: 0 0 24px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 16px; }
+  .bj-legend li { display: flex; align-items: center; gap: 8px; }
+  .bj-legend .key { display: inline-block; min-width: 2.4em; padding: 4px 6px; border-radius: 4px; text-align: center; font-weight: 700; }
+  table.bj-chart { table-layout: fixed; width: 100%; margin-bottom: 32px; border: 0; border-collapse: separate; border-spacing: 2px; text-align: center; color: #111; }
+  table.bj-chart caption { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.bj-chart th, table.bj-chart td { padding: 9px 0; border: 0; border-radius: 4px; font-weight: 700; }
+  table.bj-chart thead th { background: #17202b; color: #fff; }
+  table.bj-chart tbody th { background: #e9edf1; color: #111; white-space: nowrap; font-size: 0.9em; }
+  table.bj-chart th:first-child { width: 24%; }
+  table.bj-chart tr:nth-child(even) { background: transparent; }
+  .bj-page .h { background: #eef2f0; color: #26332f; }
+  .bj-page .s { background: #1d6f4a; color: #fff; }
+  .bj-page .d { background: #8a5f14; color: #fff; }
+  .bj-page .p { background: #75557a; color: #fff; }
+  .bj-page .r { background: #a8324c; color: #fff; }
+  .bj-cta { margin: 32px 0; padding: 20px; border-radius: 10px; background: #17202b; color: #fff; }
+  .bj-cta h2 { margin-top: 0; color: #fff; }
+  .bj-cta a.button { display: inline-block; margin-top: 8px; padding: 10px 18px; border-radius: 8px; background: #fff; color: #17202b; font-weight: 700; text-decoration: none; }
+  @media (max-width: 480px) {
+    table.bj-chart { border-spacing: 1px; font-size: 0.82em; }
+    table.bj-chart th, table.bj-chart td { padding: 8px 0; }
+    table.bj-chart th:first-child { width: 27%; }
+  }
+  @media print {
+    .site-header, .site-footer, .bj-cta, .bj-noprint { display: none; }
+    .bj-page * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    table.bj-chart { page-break-inside: avoid; margin-bottom: 16px; }
+    table.bj-chart th, table.bj-chart td { padding: 5px 0; }
+  }
+</style>
+
+<div class="bj-page">
+
+<h1>Blackjack Basic Strategy Chart</h1>
+
+<p class="lede">The mathematically best play for every blackjack hand against every dealer upcard. Find your hand in the left column, find the dealer's upcard along the top, and make the play where they meet.</p>
+
+<p class="rules"><strong>Rules this chart assumes:</strong> 4 to 8 decks, dealer hits soft 17, double after split allowed, late surrender offered. These are the most common rules on casino shoe games. A few plays change when the dealer stands on soft 17. They are listed <a href="#s17">below the chart</a>.</p>
+
+<ul class="bj-legend" aria-label="Chart key">
+  <li><span class="key h">H</span> Hit</li>
+  <li><span class="key s">S</span> Stand</li>
+  <li><span class="key d">D</span> Double if allowed, otherwise hit</li>
+  <li><span class="key d">Ds</span> Double if allowed, otherwise stand</li>
+  <li><span class="key p">P</span> Split</li>
+  <li><span class="key r">Rh</span> Surrender if allowed, otherwise hit</li>
+  <li><span class="key r">Rs</span> Surrender if allowed, otherwise stand</li>
+  <li><span class="key r">Rp</span> Surrender if allowed, otherwise split</li>
+</ul>
+
+<h2 id="hard">Hard totals</h2>
+<p>A hand with no ace, or with every ace counting as 1.</p>
+<table class="bj-chart" id="hard-totals">
+  <caption>Hard totals against the dealer's upcard</caption>
+  <thead>
+    <tr><th scope="col" class="corner">Your hand</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th><th scope="col">6</th><th scope="col">7</th><th scope="col">8</th><th scope="col">9</th><th scope="col">10</th><th scope="col">A</th></tr>
+  </thead>
+  <tbody>
+    <tr data-kind="hard" data-values="5,6,7,8"><th scope="row">5–8</th><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="hard" data-values="9"><th scope="row">9</th><td class="h" title="Hit">H</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="hard" data-values="10"><th scope="row">10</th><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="hard" data-values="11"><th scope="row">11</th><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td></tr>
+    <tr data-kind="hard" data-values="12"><th scope="row">12</th><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="hard" data-values="13,14"><th scope="row">13–14</th><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="hard" data-values="15"><th scope="row">15</th><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="r" title="Surrender, else hit">Rh</td><td class="r" title="Surrender, else hit">Rh</td></tr>
+    <tr data-kind="hard" data-values="16"><th scope="row">16</th><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="r" title="Surrender, else hit">Rh</td><td class="r" title="Surrender, else hit">Rh</td><td class="r" title="Surrender, else hit">Rh</td></tr>
+    <tr data-kind="hard" data-values="17"><th scope="row">17</th><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="r" title="Surrender, else stand">Rs</td></tr>
+    <tr data-kind="hard" data-values="18,19,20,21"><th scope="row">18+</th><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td></tr>
+  </tbody>
+</table>
+
+<h2 id="soft">Soft totals</h2>
+<p>A hand with an ace counting as 11. Find the card next to your ace.</p>
+<table class="bj-chart" id="soft-totals">
+  <caption>Soft totals against the dealer's upcard</caption>
+  <thead>
+    <tr><th scope="col" class="corner">Your hand</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th><th scope="col">6</th><th scope="col">7</th><th scope="col">8</th><th scope="col">9</th><th scope="col">10</th><th scope="col">A</th></tr>
+  </thead>
+  <tbody>
+    <tr data-kind="soft" data-values="13,14"><th scope="row">A,2 – A,3</th><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="soft" data-values="15,16"><th scope="row">A,4 – A,5</th><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="soft" data-values="17"><th scope="row">A,6</th><td class="h" title="Hit">H</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="soft" data-values="18"><th scope="row">A,7</th><td class="d" title="Double, else stand">Ds</td><td class="d" title="Double, else stand">Ds</td><td class="d" title="Double, else stand">Ds</td><td class="d" title="Double, else stand">Ds</td><td class="d" title="Double, else stand">Ds</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="soft" data-values="19"><th scope="row">A,8</th><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="d" title="Double, else stand">Ds</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td></tr>
+    <tr data-kind="soft" data-values="20"><th scope="row">A,9</th><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td></tr>
+  </tbody>
+</table>
+
+<h2 id="pair">Pairs</h2>
+<p>Two cards of the same value. Any two ten-value cards count as 10,10.</p>
+<table class="bj-chart" id="pairs">
+  <caption>Pairs against the dealer's upcard</caption>
+  <thead>
+    <tr><th scope="col" class="corner">Your pair</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th><th scope="col">6</th><th scope="col">7</th><th scope="col">8</th><th scope="col">9</th><th scope="col">10</th><th scope="col">A</th></tr>
+  </thead>
+  <tbody>
+    <tr data-kind="pair" data-values="2,3"><th scope="row">2,2 · 3,3</th><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="pair" data-values="4"><th scope="row">4,4</th><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="pair" data-values="5"><th scope="row">5,5</th><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="d" title="Double, else hit">D</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="pair" data-values="6"><th scope="row">6,6</th><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="pair" data-values="7"><th scope="row">7,7</th><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td><td class="h" title="Hit">H</td></tr>
+    <tr data-kind="pair" data-values="8"><th scope="row">8,8</th><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="r" title="Surrender, else split">Rp</td></tr>
+    <tr data-kind="pair" data-values="9"><th scope="row">9,9</th><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="s" title="Stand">S</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td></tr>
+    <tr data-kind="pair" data-values="10"><th scope="row">10,10</th><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td><td class="s" title="Stand">S</td></tr>
+    <tr data-kind="pair" data-values="11"><th scope="row">A,A</th><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td><td class="p" title="Split">P</td></tr>
+  </tbody>
+</table>
+
+<div class="bj-cta">
+  <h2>Reading a chart is not the same as knowing it</h2>
+  <p>Hit Me Maybe drills these exact plays until they are automatic: flash cards, quizzes, timed drills and a practice table that grades every decision against this chart. It also teaches Hi-Lo card counting from scratch. Free on iPhone and iPad.</p>
+  <a class="button" href="https://apps.apple.com/us/app/hit-me-maybe/id6759336520">Get Hit Me Maybe on the App Store</a>
+</div>
+
+<h2 id="how-to-read">How to use the chart at the table</h2>
+<ol>
+  <li><strong>Check for surrender first.</strong> It is only available on your first two cards. If your hand is in a red cell and the table offers surrender, take it.</li>
+  <li><strong>Is it a pair?</strong> Use the pairs table. If the chart says not to split, play the hand as its total. A pair of 5s plays as a hard 10.</li>
+  <li><strong>Is there an ace counting as 11?</strong> Use the soft totals table.</li>
+  <li><strong>Otherwise</strong> use the hard totals table.</li>
+</ol>
+<p>Doubling is only allowed on your first two cards. With three or more cards, a <strong>D</strong> cell means hit and a <strong>Ds</strong> cell means stand. A soft 18 made of three cards still hits against a 9, 10 or ace.</p>
+<p>Never take insurance or even money. Basic strategy declines both every time.</p>
+
+<h2 id="s17">If the dealer stands on soft 17</h2>
+<p>Six plays change at a table where the dealer stands on all 17s:</p>
+<ul>
+  <li><strong>11 against an ace:</strong> hit instead of doubling.</li>
+  <li><strong>A,7 against a 2:</strong> stand instead of doubling.</li>
+  <li><strong>A,8 against a 6:</strong> stand instead of doubling.</li>
+  <li><strong>15 against an ace:</strong> hit instead of surrendering.</li>
+  <li><strong>17 against an ace:</strong> stand instead of surrendering.</li>
+  <li><strong>8,8 against an ace:</strong> split instead of surrendering.</li>
+</ul>
+
+<h2 id="faq">Common questions</h2>
+<p><strong>Does basic strategy beat the casino?</strong><br>No. It makes the house edge as small as it can be without counting cards, roughly half a percent under these rules. Playing by feel typically costs several times that.</p>
+<p><strong>What if my table does not offer surrender?</strong><br>Use the second half of each red cell: Rh becomes hit, Rs becomes stand and Rp becomes split.</p>
+<p><strong>Can I bring a chart to the table?</strong><br>Many casinos allow a strategy card as long as you do not slow the game. Ask the dealer before you use one.</p>
+<p><strong>What is the fastest way to memorize it?</strong><br>Learn it in pieces: hard totals first, then pairs, then soft hands, then surrender. Test yourself on single hands until you answer without thinking. That is the order the Hit Me Maybe app teaches.</p>
+
+<p class="bj-noprint"><small>This chart is for education and entertainment. Hit Me Maybe is a trainer. It does not offer real-money gambling.</small></p>
+
+</div>

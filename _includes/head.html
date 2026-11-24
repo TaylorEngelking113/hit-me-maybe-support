@@ -1,0 +1,18 @@
+{%- comment -%}
+  Copy of minima 2.5.1's _includes/head.html (the GitHub Pages theme version) plus the
+  Smart App Banner for pages with `app_banner: true` in their front matter.
+{%- endcomment -%}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  {%- if page.app_banner -%}
+  <meta name="apple-itunes-app" content="app-id=6759336520">
+  {%- endif -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>
